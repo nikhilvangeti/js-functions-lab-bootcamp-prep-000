@@ -20,6 +20,6 @@ function happyHolidayTo(name, holiday)
 function holidayCountdown(days, holiday)
 {
   var message3="It's ${days} days until ${holiday}!"
-  return message2
+  return message3
 }
 
