@@ -6,21 +6,20 @@ function happyHolidays()
 
 function happyHolidaysTo(name)
 {
-  return 'Happy holidays, ${name}!'
+  
+  var message= 'Happy holidays, ${name}!'
+  return message
 }
 
 function happyHolidayTo(name, holiday)
 {
-  return 'Happy ${holiday}, ${name}!'
+  var message1='Happy ${holiday}, ${name}!'
+  return message1
 }
 
 function holidayCountdown(days, holiday)
 {
-  return "It's ${days} until ${holiday}!"
+  var message3="It's ${days} days until ${holiday}!"
+  return message2
 }
 
-
-happyHolidays()
-happyHolidaysTo('you')
-happyHolidayTo('Independence','you')
-holidayCountdown('20 days', "Mother's Day")
