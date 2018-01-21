@@ -6,19 +6,16 @@ function happyHolidays()
 
 function happyHolidaysTo(name)
 {
-  var fone='Happy holidays, ${name}!'
-  return fone
+  return 'Happy holidays, ${name}!'
 }
 
 function happyHoidayTo(name,holiday)
 {
-  var ftwo='Happy ${holiday}, ${name}!'
-  return ftwo
+  return 'Happy ${holiday}, ${name}!'
 }
 
 function holidayCountdown(days, holiday)
 {
-  var fthree="It's ${days} until ${holiday}!"
-  return fthree
+  return "It's ${days} until ${holiday}!"
 }
 
